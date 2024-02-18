@@ -1,8 +1,20 @@
-a = int(input())
-b = int(input())
-s = abs(a) + abs(b)
-print(s)
-print(s**s)
-for a in range(4):
-    if a == 3 or a == 2:
+a = input()
+b = input()
+
+
+for i in a:
+    if a.isdigit():
         print('ok')
+
+
+# # Входные данные
+# c = "Пример строки с цифрами 12345 и символами !@#$%"
+#
+# # Проходим по каждому символу в строке
+# for i in c:
+#     # Проверяем, является ли символ цифрой
+#     if i.isdigit():
+#         # Если да, выводим его
+#         print(i, end='')
+#
+# # Выводит только цифры: 12345
